@@ -1,0 +1,8 @@
+@media (max-width: 575.98px) {
+  .d-xs-block {
+    display: block !important;
+  }
+  .nav-item {
+    padding: 5px 0px;
+  }
+}
