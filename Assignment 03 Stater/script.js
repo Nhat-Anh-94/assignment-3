@@ -5,6 +5,8 @@ function removeBorderOnXs(id, className) {
   const element = document.getElementById(id);
   if (element && window.innerWidth < 576) {
     element.classList.remove(className);
+  } else {
+    element.classList.add(className);
   }
 }
 window.addEventListener("load", function () {
